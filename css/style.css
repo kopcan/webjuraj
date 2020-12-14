@@ -1,0 +1,224 @@
+#bigtitle
+{
+float: left;
+font-family: Garamond, Times, Serif;
+font-size: 250%;
+font-weight: bold;
+font-style: normal;
+color: white;
+position: relative;
+padding: 10px 0px 0px 10px;
+}
+
+.header
+{
+background-repeat: x-repeat;
+width: 950px;
+height: 300px;
+clear: both;
+}
+
+#navigup{width:100%;margin:0px;padding:5px 0px 0px 0px;display:inline;overflow:hidden;float:left;}
+#navigup ul{margin:0;padding:0;list-style:none;}
+#navigup ul li{float:left;margin-right:20px;padding:3px; margin:3px 3px 0px 10px;}
+#navigup ul li a{font-size:1.30em;font-weight:bold;text-decoration:none;color:#FFF;}
+#navigup ul li.selected{background-color:white;}
+#navigup ul li a:hover{text-decoration:underline; color: white; }
+#navigup ul li.selected a:hover{text-decoration:underline;}
+
+#navigup ul ul 
+{
+position: absolute;
+z-index: 500;
+display: none
+}
+#navigup ul li ul li {float:left;clear:both;list-style-type:none;margin:0; width:120px;text-align:left;padding:5px 10px 5px 10px;}
+#navigup ul li ul li a {display:block;text-decoration:none;font-size:1.2em;}
+#navigup ul li:hover ul {display:block;}
+
+body{
+background-color: white;	
+margin: 0px;
+text-align: center;
+}
+
+.content
+{
+margin-left: auto;
+margin-right: auto;
+width: 950px;
+position: relative;
+}
+
+.text
+{
+background-color: white;
+width: 650px;
+min-height: 600px;
+position: relative;
+float: left;
+margin: 10px;
+padding: 25px;
+text-align: justify;
+border: 5px;
+border-top-width: 0px;
+}
+
+.pravystlpec
+{
+width: 200px;
+float: right;
+margin: 5px;
+border: 0px ;
+border-radius: 15px;
+}
+
+.pravystlpec h3
+{
+color:white;
+font-size: 1.0em;
+border: 0px;
+margin: 0px;
+}
+
+.pravystlpec a link
+{
+text-decoration: none;
+}
+
+h1
+{
+text-align: center;
+}
+
+
+h2
+{
+font-size: 1.4em;
+font-family: Garamond, Times, Serif;
+font-weight: bold;
+font-style: italic;
+}
+
+h3
+{
+font-weight: bold;
+font-style: italic;
+font-size: 1.3em;
+color: white;
+}
+
+#patka
+{
+width: 950px;
+background-color:white;
+font-size: 1.0em;
+clear: both;
+}
+
+
+
+ p.ozdobne
+	{
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	text-align:center;
+	}
+	
+p.normal
+	{
+	font-size:12.0pt;
+	font-family:"Calibri","sans-serif";
+	line-height:150%;
+	}
+	
+.index #patka, .index #navigup ul li.selected a:hover, .index #navigup ul li.selected a, .index h1 {color: orange;} 
+.index .pravystlpec h3, .index .pravystlpec, .index #zanorovaci, .index .content, .index #bigtitle, .index .header, .index #navigup {background-color:orange;}
+.index .text, .index pravystlpec {border-color: orange, border-style:solid;}
+.index .header {background-image: URL("../images/headers/riga.jpg");}
+.index #navigup ul li ul li {background-color:darkorange; }
+.index #navigup ul li ul li a {background:darkorange;}
+
+
+.strava #patka, .strava #navigup ul li.selected a:hover, .strava #navigup ul li.selected a, .strava h1{color: brown;} 
+.strava .pravystlpec h3, .strava .pravystlpec, .strava #zanorovaci, .strava .content, .strava #bigtitle, .strava .header, .strava #navigup{background-color:brown;}
+.strava .text, .strava pravystlpec{border-color: brown, border-style:solid}
+.strava .header {background-image: URL("../images/headers/food.jpg");}
+.strava #navigup ul li ul li {background-color:#660000; }
+.strava #navigup ul li ul li a {background:#660000;}
+
+.ubytovanie #patka, .ubytovanie #navigup ul li.selected a:hover, .ubytovanie #navigup ul li.selected a, .ubytovanie h1{color: #203c13;} 
+.ubytovanie .pravystlpec h3, .ubytovanie .pravystlpec, .ubytovanie #zanorovaci, .ubytovanie .content, .ubytovanie #bigtitle, .ubytovanie .header, .ubytovanie #navigup{background-color:#203c13;}
+.ubytovanie .text, .ubytovanie pravystlpec{border-color: #203c13, border-style:solid}
+.ubytovanie .header {background-image: URL("../images/headers/building.jpg");}
+.ubytovanie #navigup ul li ul li {background-color:#006600; }
+.ubytovanie #navigup ul li ul li a {background:#006600;}
+
+.cestovanie #patka, .cestovanie #navigup ul li.selected a:hover, .cestovanie #navigup ul li.selected a, .cestovanie h1{color: #7a2545;} 
+.cestovanie .pravystlpec h3, .cestovanie .pravystlpec, .cestovanie #zanorovaci, .cestovanie .content, .cestovanie #bigtitle, .cestovanie .header, .cestovanie #navigup{background-color:#7a2545;}
+.cestovanie .text, .cestovanie pravystlpec{border-color: #7a2545, border-style:solid}
+.cestovanie .header {background-image: URL("../images/headers/bus.jpg");}
+.cestovanie #navigup ul li ul li {background-color:#663333; }
+.cestovanie #navigup ul li ul li a {background:#663333;}
+
+.volnycas #patka, .volnycas #navigup ul li.selected a:hover, .volnycas #navigup ul li.selected a, .volnycas h1{color: #6481ab;} 
+.volnycas .pravystlpec h3, .volnycas .pravystlpec, .volnycas #zanorovaci, .volnycas .content, .volnycas #bigtitle, .volnycas .header, .volnycas #navigup{background-color:#6481ab;}
+.volnycas .text, .volnycas pravystlpec{border-color: #6481ab, border-style:solid}
+.volnycas .header {background-image: URL("../images/headers/leisure_activity.jpg");}
+.volnycas #navigup ul li ul li {background-color:#0099CC; }
+.volnycas #navigup ul li ul li a {background:#0099CC;}
+
+.galeria #patka, .galeria #navigup ul li.selected a:hover, .galeria #navigup ul li.selected a, .galeria h1{color: #cf381d;} 
+.galeria .pravystlpec h3, .galeria .pravystlpec, .galeria #zanorovaci, .galeria .content, .galeria #bigtitle, .galeria.header, .galeria #navigup{background-color:#cf381d;}
+.galeria .text, .galeria pravystlpec{border-color: #cf381d, border-style:solid}
+.galeria .header {background-image: URL("../images/headers/galery.jpg");}
+.galeria #navigup ul li ul li {background-color:#CC6633; }
+.galeria #navigup ul li ul li a {background:#CC6633;}
+
+.ostatne #patka, .ostatne #navigup ul li.selected a:hover, .ostatne #navigup ul li.selected a, .ostatne h1{color: #993300;} 
+.ostatne .pravystlpec h3, .ostatne .pravystlpec, .ostatne #zanorovaci, .ostatne .content, .ostatne #bigtitle, .ostatne .header, .ostatne #navigup{background-color:#993300;}
+.ostatne .text, .ostatne pravystlpec{border-color: #993300, border-style:solid}
+.ostatne .header {background-image: URL("../images/headers/ostatne.jpg");}
+.ostatne #navigup ul li ul li {background-color:#996600; }
+.ostatne #navigup ul li ul li a {background:#996600;}
+
+/*zmenseniny_picasa*/
+.textsm {
+	FONT-SIZE: 14px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.textbg {
+	FONT-SIZE: 20px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.textreg {
+	FONT-SIZE: 12px; COLOR: #979797; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+/*LightBoxGalery*/
+#lightbox{	position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none; }
+
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 10px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{ width: 49%; height: 100%; background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(../images/js_images/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(../images/js_images/nextlabel.gif) right 15% no-repeat; }
+
+#imageDataContainer{ font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%	; }
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}	 	
+
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }
+
